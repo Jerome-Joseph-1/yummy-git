@@ -175,3 +175,14 @@
     font-weight: 800;
     font-size: 18px;
 }
+
+
+.credits {
+    text-align: center;
+    background-color: #ffc107;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
