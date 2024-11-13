@@ -86,3 +86,36 @@
     font-size: 32px;
     font-weight: 700;
 }
+
+.card-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 100px;
+    justify-content: center; 
+    max-width: 0.1px;
+    height: 0;
+    margin: 0 auto; 
+}
+
+.card {
+    border: solid black 1px;
+    height: 300px;
+    width: 240px;
+
+    padding: 15px;
+}
+
+.card .title {
+    font-weight: 800;
+}
+
+.card .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-around;
+}
