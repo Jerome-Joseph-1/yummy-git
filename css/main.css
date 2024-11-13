@@ -99,7 +99,6 @@
 
 .card {
     border: solid black 1px;
-    height: 300px;
     width: 240px;
 
     padding: 15px;
@@ -113,9 +112,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-top: 40px;
 }
 
 .card-bottom {
     display: flex;
     justify-content: space-around;
+}
+
+.card .price {
+    margin: 10px;
+    font-weight: 700;
+}
+
+.card-image {
+    width: 150%; 
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%); 
 }
