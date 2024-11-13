@@ -39,3 +39,7 @@
 .nav-links > ul > li {
     padding: 10px;
 }
+
+.blue-link {
+    color: blue;
+}

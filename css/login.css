@@ -1,0 +1,86 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form-signin {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-signin h2 {
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: none;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+.checkbox label {
+    font-weight: normal;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0069d9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
