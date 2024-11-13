@@ -40,6 +40,10 @@
     padding: 10px;
 }
 
+.nav-logo-link {
+    color: var(--primary-orange);
+}
+
 .blue-link {
     color: blue;
 }
