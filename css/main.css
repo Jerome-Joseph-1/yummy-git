@@ -79,3 +79,10 @@
     color: white;
     text-align: center;
 }
+
+.side-heading {
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
