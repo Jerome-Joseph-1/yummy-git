@@ -1,5 +1,8 @@
-.intro {
+.intro, .products {
     height: 100vh;
+}
+
+.intro {
     background-image: url(../pics/zomatoBiriyani.jpg);
     
     background-size: cover;
